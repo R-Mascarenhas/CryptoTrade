@@ -7,11 +7,11 @@ Created on Sun May 23 00:44:50 2021
 
 import schedule
 import time
-from MakeOrder import showtime
+from MakeOrder import Start
 
 
 
-schedule.every(5).minutes.do(showtime)
+schedule.every(5).minutes.do(Start)
 #schedule.every(30).seconds.do(showtime)
 
 while True:

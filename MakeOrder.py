@@ -8,6 +8,7 @@ Created on Sun May 23 01:07:48 2021
 import TradeView as TV
 import File
 from coins import *
+import Telegram
 
 
 Value = File.Read("Value.txt") #{"BRL":{"Bitcoin":1000, "Ethereum":1000, "Litecoin":1000, "Dogecoin":1000, "Ripple":1000, "BitcoinCash": 1000, "ChainLink": 1000, "Cardano": 1000, "EOS": 1000, "Stellar": 1000},
@@ -20,8 +21,12 @@ fee = 0.5/100
 def makeOrder(crypto):
     if Recommendation[crypto['COIN']] == "SELL":
         Sell(crypto, Value['CRYPTO'][crypto['COIN']])
+        Message = "SELL " + crypto['COIN'] + ' @ ' +  Value['CRYPTO'][crypto['COIN']] + eval(crypto['COIN']).SYMBOL[:-3]
+        Telegram.sendMessage(Message=Message)
     elif Recommendation[crypto['COIN']] == "BUY":
         Buy(crypto, Value['BRL'][crypto['COIN']])
+        Message = "BUY " + crypto['COIN'] + ' @ ' +  Value['BRL'][crypto['COIN']] + "BRL"
+        Telegram.sendMessage(Message=Message)
 
 def Buy(crypto, value):
     print("BUY ", crypto["COIN"])
@@ -47,15 +52,16 @@ def BuyOrSell(cryptocurrency):
         File.Write("Recommendation.txt", Recommendation)
     
 
-def showtime():
+def Start():
     BALANCE = 0.0
     for coin in Value["BRL"].keys():
-        print ("Get ", coin)
+        print ("Analysing ", coin, "-> Market: ", end='')
         try:
             cryptocurrency = TV.GET_RECOMMENDATION(eval(coin), interval = "5m")
         except Exception as inst:
             print(inst, '\n')
             return
+        print(cryptocurrency["VALUE"], 'BRL; Wallet: ',  round(Value["BRL"][cryptocurrency["COIN"]],2), " BRL + ", Value["CRYPTO"][cryptocurrency["COIN"]], ' ' ,eval(coin).SYMBOL[:-3])
         BuyOrSell(cryptocurrency)
         BALANCE += cryptocurrency["VALUE"] * Value["CRYPTO"][cryptocurrency["COIN"]] + Value["BRL"][cryptocurrency["COIN"]]
     print("BALANCE: R$", round(BALANCE,2), '\n')
