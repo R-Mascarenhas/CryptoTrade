@@ -1,0 +1,79 @@
+{
+    "Bitcoin": 
+    {
+        "symbol": "BTCBRL",
+        "exchange": "BINANCE",
+        "Id": 1
+    },
+    
+    "Litecoin": 
+    {
+        "symbol": "LTCBRL",
+        "exchange": "BINANCE",
+        "Id": 2
+    },
+    
+    "Ethereum": 
+    {
+        "symbol": "ETHBRL",
+        "exchange": "BINANCE",
+        "Id": 4
+    },
+    
+    "Ripple": 
+    {
+        "symbol": "XRPBRL",
+        "exchange": "BINANCE",
+        "Id": 6
+    },
+    
+    "BitcoinCash": 
+    {
+        "symbol": "BCHBRL",
+        "exchange": "BINANCE",
+        "Id": 8
+    },
+    
+    "TetherUS": 
+    {
+        "symbol": "USDTBRL",
+        "exchange": "BINANCE",
+        "Id": 10
+    },
+    
+    "ChainLink": 
+    {
+        "symbol": "LINKBRL",
+        "exchange": "BINANCE",
+        "Id": 12
+    },
+    
+    "Dogecoin": 
+    {
+        "symbol": "DOGEBRL",
+        "exchange": "BINANCE",
+        "Id": 14
+    },
+    
+    "CARDANO": 
+    {
+        "symbol": "ADABRL",
+        "exchange": "BINANCE",
+        "Id": 16
+    },
+    
+    "EOS": 
+    {
+        "symbol": "EOSUSDT",
+        "exchange": "BINANCE",
+        "Id": 18
+    },
+    
+    "Stellar": 
+    {
+        "symbol": "XLMUSDT",
+        "exchange": "BINANCE",
+        "Id": 20
+    },
+}
+

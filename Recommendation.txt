@@ -1,0 +1,9 @@
+{"Bitcoin": "NEUTRAL", "Ethereum": "NEUTRAL", "Litecoin": "NEUTRAL", "Dogecoin": "NEUTRAL", "Ripple": "NEUTRAL", "BitcoinCash": "NEUTRAL", "ChainLink": "NEUTRAL", "Cardano": "NEUTRAL", "EOS": "NEUTRAL", "Stellar": "NEUTRAL"}
+{"Bitcoin": "SELL", "Ethereum": "NEUTRAL", "Litecoin": "NEUTRAL", "Dogecoin": "NEUTRAL", "Ripple": "NEUTRAL", "BitcoinCash": "NEUTRAL", "ChainLink": "NEUTRAL", "Cardano": "NEUTRAL", "EOS": "NEUTRAL", "Stellar": "NEUTRAL"}
+{"Bitcoin": "SELL", "Ethereum": "NEUTRAL", "Litecoin": "NEUTRAL", "Dogecoin": "NEUTRAL", "Ripple": "NEUTRAL", "BitcoinCash": "NEUTRAL", "ChainLink": "SELL", "Cardano": "NEUTRAL", "EOS": "NEUTRAL", "Stellar": "NEUTRAL"}
+{"Bitcoin": "SELL", "Ethereum": "NEUTRAL", "Litecoin": "SELL", "Dogecoin": "NEUTRAL", "Ripple": "NEUTRAL", "BitcoinCash": "NEUTRAL", "ChainLink": "SELL", "Cardano": "NEUTRAL", "EOS": "NEUTRAL", "Stellar": "NEUTRAL"}
+{"Bitcoin": "SELL", "Ethereum": "NEUTRAL", "Litecoin": "SELL", "Dogecoin": "SELL", "Ripple": "NEUTRAL", "BitcoinCash": "NEUTRAL", "ChainLink": "SELL", "Cardano": "NEUTRAL", "EOS": "NEUTRAL", "Stellar": "NEUTRAL"}
+{"Bitcoin": "SELL", "Ethereum": "NEUTRAL", "Litecoin": "SELL", "Dogecoin": "SELL", "Ripple": "NEUTRAL", "BitcoinCash": "SELL", "ChainLink": "SELL", "Cardano": "NEUTRAL", "EOS": "NEUTRAL", "Stellar": "NEUTRAL"}
+{"Bitcoin": "SELL", "Ethereum": "SELL", "Litecoin": "SELL", "Dogecoin": "SELL", "Ripple": "NEUTRAL", "BitcoinCash": "SELL", "ChainLink": "SELL", "Cardano": "NEUTRAL", "EOS": "NEUTRAL", "Stellar": "NEUTRAL"}
+{"Bitcoin": "SELL", "Ethereum": "SELL", "Litecoin": "SELL", "Dogecoin": "SELL", "Ripple": "NEUTRAL", "BitcoinCash": "SELL", "ChainLink": "SELL", "Cardano": "SELL", "EOS": "NEUTRAL", "Stellar": "NEUTRAL"}
+{"Bitcoin": "SELL", "Ethereum": "SELL", "Litecoin": "SELL", "Dogecoin": "SELL", "Ripple": "NEUTRAL", "BitcoinCash": "SELL", "ChainLink": "SELL", "Cardano": "SELL", "EOS": "NEUTRAL", "Stellar": "SELL"}
